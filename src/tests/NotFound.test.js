@@ -3,7 +3,7 @@ import { screen } from '@testing-library/react';
 import renderWithRouter from './utilities/renderWithRouter';
 import { NotFound } from '../pages';
 
-describe('Testando Favorirte Pokémons', () => {
+describe('Testando a Página Não Encontrada', () => {
   test('Testando o título da página', () => {
     renderWithRouter(<NotFound />);
 
